@@ -1,0 +1,12 @@
+main {
+    box-shadow: 0 0 10px #e5e5e5;
+}
+
+.services__gallery {
+    grid-template-areas: 
+    "main main dos tres"
+    "main main cuatro cinco";
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+}
+
